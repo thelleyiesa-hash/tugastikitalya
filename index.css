@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color:palevioletred;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: pink;
+    color: palevioletred;
+}
+
+
+
+body{
+
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+
+}
+
+.h1-judul{
+
+    background-color: rgb(26, 148, 156);
+    color: rgb(229, 243, 255);
+
+}
+
+div.foto{
+
+    position: relative;
+
+    width: 250px;
+
+    height: 250px;
+
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border: 3px solid rosybrown;
+
+}
+
+div.foto img{
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    transition: transform 0.5s ease, opacity 0.5s ease;
+
+}
+
+div.foto img.top{
+
+    opacity: 1;
+
+    z-index: 2;
+
+}
+
+div.foto:hover img.top{
+
+    opacity: 0;
+
+    transform: scale(1.1);
+
+}
+
+div.foto img.bottom{
+
+    opacity: 0;
+
+    z-index: 1;
+
+}
+
+div.foto:hover img.bottom{
+
+    opacity: 1;
+
+    transform: scale(1.1);
+
+}
+
+
+div.makanan{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    text-align: center;
+
+}
+
+div.makanan > div{
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+
+    padding: 10px;
+
+    width: 220px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+div.makanan > div:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+
+}
+
+div.makanan img{
+
+    border-radius: 15px;
+
+    transition: transform 0.4s ease;
+
+}
+
+div.makanan > div:hover img{
+
+    transform: scale(1.05);
+
+}
+
+div.makanan p{
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: rgb(26, 148, 156);
+
+}
+
+
+div.places{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    text-align: center;
+
+}
+
+div.place{
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+
+    padding: 10px;
+
+    width: 220px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+div.place:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+
+}
+
+div.place img{
+
+    width: 200px;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    padding: 0;
+
+    transition: transform 0.4s ease;
+
+}
+
+div.place:hover img{
+
+    transform: scale(1.05);
+
+}
+
+div.place p{
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: rgb(26, 148, 156);
+
+    transition: color 0.3s ease;
+
+}
+
+div.place:hover p{
+
+    color: rgb(255, 128, 149);
+
+}
+
+
+div.movies{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    text-align: center;
+
+}
+
+div.movie{
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+
+    padding: 10px;
+
+    width: 220px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+div.movie:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+
+}
+
+div.movie img{
+
+    width: 200px;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    padding: 0;
+
+    transition: transform 0.4s ease;
+
+}
+
+div.movie:hover img{
+
+    transform: scale(1.05);
+
+}
+
+div.movie p{
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: rgb(26, 148, 156);
+
+    transition: color 0.3s ease;
+
+}
+
+div.movie:hover p{
+
+    color: rgb(255, 128, 149);
+
+}
+
+
+img{
+
+    padding: 10px;
+
+}

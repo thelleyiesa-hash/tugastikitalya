@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color:palevioletred;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: pink;
+    color: palevioletred;
+}
+
+
+
+h2{
+    width: 100%;                
+    display: block;             
+    background-color: pink; 
+    color: palevioletred;            
+    text-align: center;         
+    
+    height: auto;               
+    padding: 2px 2px;            
+    line-height: normal;        
+    
+    border: 3px solid teal;  
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;       
+    margin: 20px 0;            
+}
+
+table, th, td{
+    border:1px solid palevioletred;
+    padding: 5px;
+}
+
+td.hover {
+    background-color: pink;
+    color: palevioletred;
+}
+
+td.hover:hover{
+    background-color: turquoise;
+    color: teal;
+} 
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+
+
+
+th{
+    height: 45px;
+}
+
+td{
+    text-align: center;
+}
+
+th.hover {
+    background-color: turquoise;
+    color: teal;
+    transition: 0.3s;
+}
+
+th.hover:hover {
+    background-color: palevioletred;
+    color: white;
+}
